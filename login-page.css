@@ -55,6 +55,13 @@ body {
   align-items: top;
 }
 
+#button {
+  align-self: flex-start;
+  display: none;
+  justify-items: center;
+  align-items: top;
+}
+
 .login-form-field::placeholder {
   color: #3a3a3a;
 }
