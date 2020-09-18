@@ -18,9 +18,9 @@ body {
   display: grid;
   justify-items: center;
   align-items: center;
-  background-color: white;
+  background-color: #003575;
   border-radius: 7px;
-  box-shadow: 0px 0px 5px 2px black;
+  box-shadow: 20px 20px 10px black;
 }
 
 #login-error-msg-holder {
@@ -52,7 +52,7 @@ body {
   align-self: flex-start;
   display: grid;
   justify-items: center;
-  align-items: center;
+  align-items: top;
 }
 
 .login-form-field::placeholder {
