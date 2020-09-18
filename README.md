@@ -1,2 +1,2 @@
-# nathanfogwillrichuish.github.io
-IM Web Application
+# IM-App
+Instant Messaging web application 
