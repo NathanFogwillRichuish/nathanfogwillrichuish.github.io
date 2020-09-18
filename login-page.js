@@ -4,10 +4,10 @@ const loginErrorMsg = document.getElementById("login-error-msg");
 
 function hideElement() {
   var x = document.getElementById("login-form");
-  if (x.style.display === "block") {
+  if (x.style.display === "grid") {
     x.style.display = "none";
   } else {
-    x.style.display = "block";
+    x.style.display = "grid";
   }
 }
 
