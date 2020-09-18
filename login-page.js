@@ -7,7 +7,7 @@ function hideElement() {
   var y =document.getElementById("button");
   if (x.style.display === "grid") {
     x.style.display = "none"
-    y.style.display = "none";
+    y.style.display = "grid";
   } else {
     x.style.display = "grid";
   }
