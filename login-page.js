@@ -3,11 +3,11 @@ const loginButton = document.getElementById("login-form-submit");
 const loginErrorMsg = document.getElementById("login-error-msg");
 
 function hideElement() {
-  var x = document.getElementById("button-field");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
+  var x = document.getElementById("login-form");
+  if (x.style.display === "block") {
     x.style.display = "none";
+  } else {
+    x.style.display = "block";
   }
 }
 
