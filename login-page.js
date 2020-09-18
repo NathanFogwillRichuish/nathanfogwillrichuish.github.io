@@ -6,10 +6,10 @@ function hideElement() {
   var x = document.getElementById("login-form");
   var y =document.getElementById("button");
   if (x.style.display === "grid") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "grid"
+    x.style.display = "none"
     y.style.display = "none";
+  } else {
+    x.style.display = "grid";
   }
 }
 
