@@ -4,7 +4,7 @@ const loginErrorMsg = document.getElementById("login-error-msg");
 
 function hideElement() {
   var x = document.getElementById("login-form");
-  var y =document.getElementById("button") 
+  var y =document.getElementById("button");
   if (x.style.display === "grid") {
     x.style.display = "none";
   } else {
