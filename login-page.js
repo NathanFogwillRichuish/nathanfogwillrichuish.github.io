@@ -7,6 +7,7 @@ function hideElement() {
   var y =document.getElementById("button");
   if (x.style.display === "grid") {
     x.style.display = "none"
+    //not working atm should display button when login-form is hidden but just hides the button as well
     y.style.display = "grid";
   } else {
     x.style.display = "grid";
