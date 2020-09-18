@@ -18,7 +18,7 @@ body {
   display: grid;
   justify-items: center;
   align-items: center;
-  background-color: #003575;
+  background-color: white;
   border-radius: 7px;
   box-shadow: 20px 20px 10px black;
 }
@@ -70,12 +70,13 @@ body {
 
 .login-verification {
   background-color: #4CAF50;
-  border: none;
-  color: green;
-  padding: 15px 32px;
+  border: 2px solid #e7e7e7;;
+  color: black;
+  padding: 5px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  border-radius: 12px;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
