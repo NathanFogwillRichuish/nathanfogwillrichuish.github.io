@@ -57,7 +57,7 @@ body {
 
 #button {
   align-self: flex-start;
-  display: none;
+  display: block;
   justify-items: center;
   align-items: top;
 }
