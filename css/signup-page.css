@@ -50,7 +50,7 @@ body {
 
 #signup-form {
   align-self: flex-start;
-  display: none;
+  display: grid;
   justify-items: center;
   align-items: top;
 }
