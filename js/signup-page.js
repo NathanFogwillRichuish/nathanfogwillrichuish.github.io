@@ -6,9 +6,12 @@ signupButton.addEventListener("click", (e) => {
     e.preventDefault();
     const username = signupForm.username.value;
     const password = signupForm.password.value;
+    const DOB = signupForm.DOB.value;
+    const firstName = signupForm.firstName.value;
+    const lastName = signupForm.lastName.value;
 
-    if (username === "user" && password === "web_dev") {
-        alert("You have successfully logged in.");
+    if (username != "" && password != "" && DOB != "" && firstName != "" && lastName != "") {
+        alert("You have successfully registered!.");
         location.reload();
     } else {
         signupErrorMsg.style.opacity = 1;
