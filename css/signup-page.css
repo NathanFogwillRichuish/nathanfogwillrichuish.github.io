@@ -12,20 +12,6 @@ body {
   background-color: #3a3a3a;
 }
 
-a {
-  background-color: #646b64;
-  border: 10px solid #e7e7e7;;
-  color: black;
-  padding: 5px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 12px;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
 #signup-holder {
   width: 30%;
   height: 70%;
