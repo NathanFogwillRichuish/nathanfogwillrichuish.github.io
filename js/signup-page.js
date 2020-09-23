@@ -1,5 +1,5 @@
 const signupForm = document.getElementById("signup-form");
-const signupButton = document.getElementById("singup-form-submit");
+const signupButton = document.getElementById("signup-form-submit");
 const signupErrorMsg = document.getElementById("signup-error-msg");
 
 signupButton.addEventListener("click", (e) => {
