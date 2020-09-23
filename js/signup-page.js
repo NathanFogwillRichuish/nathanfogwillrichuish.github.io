@@ -6,11 +6,11 @@ signupButton.addEventListener("click", (e) => {
     e.preventDefault();
     const username = signupForm.username.value;
     const password = signupForm.password.value;
-    const DOB = signupForm.DOB.value;
+    const DOBvalue = signupForm.DOB.value;
     const firstName = signupForm.firstName.value;
     const lastName = signupForm.lastName.value;
 
-    if (username != "" && password != "" && DOB != "" && firstName != "" && lastName != "") {
+    if (username != "" && password != "" && DOBvalue != "" && firstName != "" && lastName != "") {
         alert("You have successfully registered!.");
         location.reload();
     } else {
